@@ -20,25 +20,25 @@ public class MainFragment extends Fragment {
         super.onCreate(savedInstanceState);
     }
 
-    @Override
-    public View onCreateView(LayoutInflater inflater, ViewGroup container,
-                             Bundle savedInstanceState) {
-
-        View v = inflater.inflate(R.layout.operacoesrealizadas, container, false);
-
-        if (savedInstanceState == null) {
-            getActivity().getSupportFragmentManager().beginTransaction().replace(R.id.frame_medicamentos, new ListarFragment()).commit();
-        }
-
-
-        Button btnListar = v.findViewById(R.id.button_listar_medicamentos);
-        // handler do botão listar
-        btnListar.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                getActivity().getSupportFragmentManager().beginTransaction().replace(R.id.frame_medicamentos, new ListarFragment()).commit();
-            }
-        });
-        return v;
-    }
+//    @Override
+//    public View onCreateView(LayoutInflater inflater, ViewGroup container,
+////                             Bundle savedInstanceState) {
+//
+//        View v = inflater.inflate(R.layout.operacoesrealizadas, container, false);
+//
+//        if (savedInstanceState == null) {
+//            getActivity().getSupportFragmentManager().beginTransaction().replace(R.id.frame_medicamentos, new ListarFragment()).commit();
+//        }
+//
+//
+//        Button btnListar = v.findViewById(R.id.button_listar_medicamentos);
+//        // handler do botão listar
+//        btnListar.setOnClickListener(new View.OnClickListener() {
+//            @Override
+//            public void onClick(View view) {
+//                getActivity().getSupportFragmentManager().beginTransaction().replace(R.id.frame_medicamentos, new ListarFragment()).commit();
+//            }
+//        });
+////        return v;
+//    }
 }

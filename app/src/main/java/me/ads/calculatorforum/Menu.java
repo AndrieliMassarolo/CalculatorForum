@@ -35,11 +35,11 @@ public class Menu extends Fragment {
 
     @Override
     public boolean onOptionsItemSelected(MenuItem item) {
-        switch ((item.getItemId())) {
-            case R.id.menu_operacoesrealizadas:
-                getActivity().getSupportFragmentManager().beginTransaction().replace(R.id.frame_main, new me.ads.calculatorforum.operacoesrealizadas.MainFragment()).commit();
-                break;
-                    }
+//        switch ((item.getItemId())) {
+//            case R.id.menu_operacoesrealizadas:
+//                getActivity().getSupportFragmentManager().beginTransaction().replace(R.id.frame_main, new me.ads.calculatorforum.operacoesrealizadas.MainFragment()).commit();
+//                break;
+//                    }
         return super.onOptionsItemSelected(item);
     }
 }

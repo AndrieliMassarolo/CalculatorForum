@@ -10,10 +10,11 @@
         <entry key="..\:/Users/Andrieli/AndroidStudioProjects/CalculatorForum/app/src/main/res/drawable/shape_numero_normal.xml" value="0.1685" />
         <entry key="..\:/Users/Andrieli/AndroidStudioProjects/CalculatorForum/app/src/main/res/drawable/shape_numero_selecionado.xml" value="0.1685" />
         <entry key="..\:/Users/Andrieli/AndroidStudioProjects/CalculatorForum/app/src/main/res/drawable/shape_operacoes_selecionado.xml" value="0.1" />
-        <entry key="..\:/Users/Andrieli/AndroidStudioProjects/CalculatorForum/app/src/main/res/layout/activity_main.xml" value="0.25" />
+        <entry key="..\:/Users/Andrieli/AndroidStudioProjects/CalculatorForum/app/src/main/res/layout/activity_main.xml" value="0.12030075187969924" />
         <entry key="..\:/Users/Andrieli/AndroidStudioProjects/CalculatorForum/app/src/main/res/layout/fragment_menu.xml" value="0.31145833333333334" />
         <entry key="..\:/Users/Andrieli/AndroidStudioProjects/CalculatorForum/app/src/main/res/layout/fragment_operacoes.xml" value="0.15262361251261353" />
         <entry key="..\:/Users/Andrieli/AndroidStudioProjects/CalculatorForum/app/src/main/res/layout/fragment_teste.xml" value="0.1" />
+        <entry key="..\:/Users/Andrieli/AndroidStudioProjects/CalculatorForum/app/src/main/res/menu/menu.xml" value="0.251953125" />
       </map>
     </option>
   </component>

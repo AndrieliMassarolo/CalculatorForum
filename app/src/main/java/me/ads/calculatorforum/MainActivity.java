@@ -92,14 +92,14 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
             }
         });
 
-        porcentagem.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                String string = (txtExpressao.getText().toString())/100;
-                txtExpressao.setText(no+"");
-                 = true;
-            }
-        });
+//        //porcentagem.setOnClickListener(new View.OnClickListener() {
+//            @Override
+//            public void onClick(View v) {
+//                String string = (txtExpressao.getText().toString())/100;
+//                txtExpressao.setText(no+"");
+//                 = true;
+//            }
+//        });
 
     }
 
